@@ -1,0 +1,11 @@
+@import "variables";
+
+.sliderPanorama{
+    &__wrapper{
+        max-width: 93rem;
+        margin: auto;
+    }
+    &__img{
+        width: 100%;
+    }
+}
