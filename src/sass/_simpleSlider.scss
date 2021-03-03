@@ -10,6 +10,21 @@
 
 .sliderSimple-item{
     position: relative;
+    &:hover {
+		.content-link {
+			opacity: 0.85;
+			display: inline-block;
+            font-family: $medium;
+            margin-top: 1rem;
+            border: 1px solid $textOnBlack;
+            padding: .8rem 1rem;
+            color: $textOnBlack;
+            transition: .4s;
+		}
+        .content-title{
+            color: $textOnBlack;
+        }
+	}
     &__img{
         border-radius: 8px;
         overflow: hidden;
@@ -53,7 +68,7 @@
             font-family: $medium;
             font-size: 2.1rem;
             line-height: 2.5rem;
-            color: $textOnBlack;
+            color: #D4B76A;
         }
         .content-title--dark{
             color: $mainColor;
@@ -68,13 +83,7 @@
             color: $mainColor;
         }
         .content-link{
-            display: inline-block;
-            font-family: $medium;
-            margin-top: 1rem;
-            border: 1px solid $textOnBlack;
-            padding: .8rem 1rem;
-            color: $textOnBlack;
-            transition: .4s;
+            display: none;
         }
         .content-link:hover{
             color: $mainColor;

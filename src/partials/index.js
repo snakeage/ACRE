@@ -32,6 +32,7 @@ import Tabs from "./other/Tabs";
 import Content from "./other/Content";
 import ContentItem from "./other/ContentItem";
 import FilterOther from "./other/FilterOther";
+import Service from "./Service"
 
 
 export {
@@ -68,7 +69,8 @@ export {
     FilterOther,
     MenuTrigger,
     Modal,
-    Filter
+    Filter,
+    Service
 }
 
 
