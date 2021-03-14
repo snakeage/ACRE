@@ -101,6 +101,14 @@ const Aside = ({location}) => {
                                     <span className="nav__item-text">Контакты</span>
                                 </Link>
                             </li>
+                            <li className={`${location.pathname === '/favorites' ? 'active' : '' } nav__item `}>
+                                <Link className="nav__item-link" to="/favorites" onClick={closeMenu}>
+                                <svg className="nav__item-icon" fill="none" width="16" height="16" viewBox="0 0 16 16">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#9FA2B4"/>
+                                    </svg>
+                                    <span className="nav__item-text">Избранные объекты</span>
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                     <form action="#" className="aside__form">

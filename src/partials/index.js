@@ -32,7 +32,7 @@ import Tabs from "./other/Tabs";
 import Content from "./other/Content";
 import ContentItem from "./other/ContentItem";
 import FilterOther from "./other/FilterOther";
-import Service from "./Service"
+import Service from "./Service";
 
 
 export {

@@ -1,5 +1,6 @@
 import React from 'react';
-import {SliderBig, Slider, SliderSimple, MenuTrigger, Filter, Service} from '../partials'
+import {SliderBig, Slider, SliderSimple, MenuTrigger, Filter, } from '../partials'
+import Service from '../components/service/service.component';
 
 import kirill from '../img/kirill.jpg'
 import kirillMark from '../img/kirillMark.svg'
@@ -33,7 +34,6 @@ const Home = () => {
                     Услуги
                 </div>
                 <Service />
-                <SliderSimple services={true}/>
             </section>
             
             <section className="about section">
